@@ -1,3 +1,97 @@
-.meny{
-color: red ;
+/* hover - псевдо клас
+   focus - псевдо клас
+   font-size=розмір шрифту
+   font-wight= товщина шрифту
+   */
+.hlogo {
+    font-size: 31px;
+    font-weight: 700;
+    color: black;
+}
+
+.hlogo:hover {
+    font-size: 46px;
+    font-weight: 1000px;
+    color: black;
+}
+
+.webstudio {
+    color: rgb(61, 161, 219);
+}
+
+.spisok-studio {
+    color: #2196F3;
+    font-size: 16px;
+    font-weight: 45px;
+
+}
+
+.spisok-studio:hover {
+    color: #020b12;
+    font-size: 26px;
+    font-weight: 135px;
+}
+
+.spisok-portfolio {
+    color: black;
+    font-size: 16px;
+    font-weight: 45px;
+}
+
+.spisok-portfolio:hover {
+    color: blue;
+    font-size: 26px;
+    font-weight: 135px;
+}
+
+.spisok-kontakt {
+    color: black;
+    font-size: 16px;
+    font-weight: 45px;
+}
+
+.spisok-kontakt:hover {
+    color: blue;
+    font-size: 26px;
+    font-weight: 135px;
+}
+
+.mailclas {
+    color: #2196F3;
+    font-size: 16px;
+    font-weight: 135px;
+}
+
+.mailclas:hover {
+    color: black;
+    font-size: 26px;
+    font-weight: 205px;
+}
+
+.telclas {
+    color: black;
+    font-size: 16px;
+    font-weight: 135px;
+}
+
+.telclas:hover {
+    color: blue;
+    font-size: 26px;
+    font-weight: 135px;
+}
+
+.flogo {
+    font-size: 31px;
+    font-weight: 700;
+    color: white;
+}
+
+.flogo:hover {
+    font-size: 46px;
+    font-weight: 1000px;
+    color: black;
+}
+
+.fwebstudio {
+    color: rgb(61, 161, 219);
 }

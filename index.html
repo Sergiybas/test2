@@ -4,31 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <img src="./Image/WebStudio.jpg" alt="Logo" />
-      <ul class="meny">
-        <li><a href="#">Студія</a></li>
-        <li><a href="#">Портфоліо</a></li>
-        <li><a href="#">Контакти</a></li>
-        <li><a href="malito:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+38 096 111 11 11">+38 096 111 11 1</a>1</li>
+      <ul>
+        <li>
+          <a class="hlogo" href=""> <span class="webstudio"> Web </span> Studio</a>
+        </li>
       </ul>
+      <ul class="spisok">
+        <li><a class="spisok-studio" href="#">Студія</a></li>
+        <li><a class="spisok-portfolio" href="./portfolio.html">Портфоліо</a></li>
+        <li><a class="spisok-kontakt" href="#">Контакти</a></li>
+      </ul>
+      <ul>
+        <li><a class="mailclas" href="malito:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="telclas" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+      </ul>
+    </header>
+    <main>
       <img src="./Image/(поінтери).jpg" alt="Logo hand" />
       <section>
-        <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <h1 class="zagolovok">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
         <ul>
-          <il><img src="./Image/Bg.png" alt="fon" /></il>
+          <li><img src="./Image/Bg.png" alt="fon" /></li>
           <li>
-            <a href=""> <img src="./Image/Button.png" alt="button" /></a>
+            <button type="button"><img src="./Image/Button.png" alt="button" /></button>
           </li>
         </ul>
       </section>
       <section>
-        <ul>
+        <ul class="opys-zagolovkiv">
           <li>
-            <h2>УВАГА ДО ДЕТАЛЕЙ</h2>
+            <h2 class="zagolovki">УВАГА ДО ДЕТАЛЕЙ</h2>
             <p>
               ПУНКТУАЛЬНІСТЬ ПЛАНУВАННЯ СУЧАСНІ ТЕХНОЛОГІЇ Ідейні міркування, і навіть початок
               повсякденної роботи з формування позиції. Завдання організації, особливо рамки і місце
@@ -37,70 +46,71 @@
             </p>
           </li>
           <li>
-            <h2>ПУНКТУАЛЬНІСТЬ</h2>
+            <h2 class="zagolovki">ПУНКТУАЛЬНІСТЬ</h2>
             <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
           </li>
           <li>
-            <h2>ПЛАНУВАННЯ</h2>
+            <h2 class="zagolovki">ПЛАНУВАННЯ</h2>
             <p>Так само консультація з широким активом значною мірою зумовлює.</p>
           </li>
           <li>
-            <h2>СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+            <h2 class="zagolovki">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
             <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
           </li>
         </ul>
       </section>
       <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
+        <h2 class="zagolovok-relama">Чим ми займаємося</h2>
+        <ul class="reklama-box">
           <li>
-            <a href="#"><img src="./Image/box 1.png" alt="box1" /></a>
+            <a class="box" href="#"><img src="./Image/box 1.png" alt="box1" /></a>
           </li>
           <li>
-            <a href="#"><img src="./Image/box 2.png" alt="box2" /></a>
+            <a class="box" href="#"><img src="./Image/box 2.png" alt="box2" /></a>
           </li>
           <li>
-            <a href="#"><img src="./Image/box 3.png" alt="box3" /></a>
+            <a class="box" href="#"><img src="./Image/box 3.png" alt="box3" /></a>
           </li>
         </ul>
       </section>
       <section>
-        <ul>
+        <ul class="komanda">
           <li>
             <a href="#"><img src="./Image/img.jpg" alt="foto" /></a>
           </li>
-          <li><h2>Ігор Дем'яненко</h2></li>
-          <li><p>Product Designer</p></li>
+          <li><h2 class="fio">Ігор Дем'яненко</h2></li>
+          <li><p class="profesion">Product Designer</p></li>
           <li>
             <a href="#"><img src="./Image/img (1).jpg" alt="foto1" /></a>
+            <h2 class="fio">Ольга Рєпіна</h2>
+            <p class="profesion">Frontend Developer</p>
           </li>
-          <li><h2>Ольга Рєпіна</h2></li>
-          <li><p>Frontend Developer</p></li>
+
           <li>
             <a href="#"><img src="./Image/img (2).jpg" alt="foto2" /></a>
+            <h2 class="fio">Микола Тарасов</h2>
+            <p class="profesion">Marketing</p>
           </li>
-          <li><h2>Микола Тарасов</h2></li>
-          <li><p>Marketing</p></li>
           <li>
             <a href="#"><img src="./Image/img (3).jpg" alt="foto3" /></a>
+            <h2 class="fio">Михайло Єрмаков</h2>
+            <p class="profesion">UI Designer</p>
           </li>
-          <li><h2>Михайло Єрмаков</h2></li>
-          <li><p>UI Designer</p></li>
         </ul>
       </section>
-    </header>
+    </main>
     <footer>
       <ul>
         <li>
           <a href="#"><img src="./Image/Footer bg.png" alt="footer" /></a>
         </li>
         <li>
-          <a href="#"><img src="./Image/WebStudio1.png" alt="logo2" /></a>
+          <a class="flogo" href=""><span class="fwebstudio">Web </span> Studio</a>
         </li>
         <li>
-          <p>м. Київ, пр-т Лесі Українки, 26</p>
-          <p>info@devstudio.com</p>
-          <p>+38 096 111 11 11</p>
+          <p class="adres-foot">м. Київ, пр-т Лесі Українки, 26</p>
+          <p class="fmail-clas">info@devstudio.com</p>
+          <p class="ftelclas">+38 096 111 11 11</p>
         </li>
       </ul>
     </footer>
