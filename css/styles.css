@@ -4,11 +4,14 @@
    font-wight= товщина шрифту
    */
    /*Header*/
-
+:root{
+    --primary-text-color:rgb(0, 0, 0);
+    --title-text-color:#2196F3;
+}
    .logo {
     font-size: 31px;
     font-weight: 700;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .logo:hover {
@@ -18,7 +21,7 @@
 }
 
 .logo-web {
-    color: rgb(61, 161, 219);
+    color:var(--title-text-color)
 }
 
 .list-studio {
