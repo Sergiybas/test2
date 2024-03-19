@@ -3,83 +3,85 @@
    font-size=розмір шрифту
    font-wight= товщина шрифту
    */
-.hlogo {
+   /*Header*/
+
+   .logo {
     font-size: 31px;
     font-weight: 700;
     color: black;
 }
 
-.hlogo:hover {
+.logo:hover {
     font-size: 46px;
     font-weight: 1000px;
     color: black;
 }
 
-.webstudio {
+.logo-web {
     color: rgb(61, 161, 219);
 }
 
-.spisok-studio {
+.list-studio {
     color: #2196F3;
     font-size: 16px;
     font-weight: 45px;
 
 }
 
-.spisok-studio:hover {
+.list-studio:hover {
     color: #020b12;
     font-size: 26px;
     font-weight: 135px;
 }
 
-.spisok-portfolio {
+.list-portfolio {
     color: black;
     font-size: 16px;
     font-weight: 45px;
 }
 
-.spisok-portfolio:hover {
+.list-portfolio:hover {
     color: blue;
     font-size: 26px;
     font-weight: 135px;
 }
 
-.spisok-kontakt {
+.list-kontakt {
     color: black;
     font-size: 16px;
     font-weight: 45px;
 }
 
-.spisok-kontakt:hover {
+.list-kontakt:hover {
     color: blue;
     font-size: 26px;
     font-weight: 135px;
 }
 
-.mailclas {
+.mail {
     color: #2196F3;
     font-size: 16px;
     font-weight: 135px;
 }
 
-.mailclas:hover {
+.mail:hover {
     color: black;
     font-size: 26px;
     font-weight: 205px;
 }
 
-.telclas {
+.tel {
     color: black;
     font-size: 16px;
     font-weight: 135px;
 }
 
-.telclas:hover {
+.tel:hover {
     color: blue;
     font-size: 26px;
     font-weight: 135px;
 }
-
+/* header>>>main*/
 .flogo {
     font-size: 31px;
     font-weight: 700;
