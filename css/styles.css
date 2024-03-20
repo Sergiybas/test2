@@ -2,13 +2,114 @@
    focus - псевдо клас
    font-size=розмір шрифту
    font-wight= товщина шрифту
+   ul {
+       list-style: none;   ---убрати маркери
+   }
+   
    */
-   /*Header*/
-:root{
-    --primary-text-color:rgb(0, 0, 0);
-    --title-text-color:#2196F3;
+/*Header*/
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #2196F3;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
 }
-   .logo {
+
+ul {
+    list-style: none;
+}
+
+.body {
+    color: #212121;
+    font-family: 'roboto';
+}
+
+.logo {
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+
+.logo-second {
+    color: #212121;
+}
+
+.list {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.list-studio:hover,
+:focus :active {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.list-studio {
+    color: #2196f3;
+}
+
+.list-portfolio:hover,
+:focus:active {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.list-kontakt:hover,
+:focus :active {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tel {
+    color: #757575;
+}
+
+.firstfon {
+    width: 1600px;
+    height: 554px;
+    background: #2f303a;
+
+}
+
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+    /*змінити колір*/
+}
+
+.button {
+    border-radius: 4px;
+    width: 216px;
+    height: 46px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #2196f3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+}
+
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.06em;
+text-align: center;
+color: #fff;
+
+/*.logo {
     font-size: 31px;
     font-weight: 700;
     color: rgb(0, 0, 0);
@@ -85,7 +186,7 @@
     font-weight: 135px;
 }
 /* header>>>main*/
-.flogo {
+/*.flogo {
     font-size: 31px;
     font-weight: 700;
     color: white;
