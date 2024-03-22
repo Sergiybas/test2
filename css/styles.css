@@ -8,11 +8,13 @@
    
    */
 /*Header*/
+
+
 :root {
     --primary-text-color: #212121;
     --title-text-color: #2196F3;
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
+    --font-family: 'Roboto', sans-serif;
+    --second-family: ' Raleway', sans-serif;
 }
 
 ul {
@@ -20,12 +22,16 @@ ul {
 }
 
 .body {
+    list-style: none;
+}
+
+.body {
     color: #212121;
-    font-family: 'roboto';
+    font-family: roboto;
 }
 
 .logo {
-    font-family: 'raleway';
+    font-family: ralewey;
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
@@ -101,103 +107,100 @@ ul {
     color: #fff;
 }
 
-font-family: var(--font-family);
-font-weight: 700;
-font-size: 16px;
-line-height: 187%;
-letter-spacing: 0.06em;
-text-align: center;
-color: #fff;
-
-/*.logo {
-    font-size: 31px;
+.text-title {
     font-weight: 700;
-    color: rgb(0, 0, 0);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
 }
 
-.logo:hover {
-    font-size: 46px;
-    font-weight: 1000px;
-    color: black;
+.text-lied {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
-.logo-web {
-    color:var(--title-text-color)
-}
-
-.list-studio {
-    color: #2196F3;
-    font-size: 16px;
-    font-weight: 45px;
-
-}
-
-.list-studio:hover {
-    color: #020b12;
-    font-size: 26px;
-    font-weight: 135px;
-}
-
-.list-portfolio {
-    color: black;
-    font-size: 16px;
-    font-weight: 45px;
-}
-
-.list-portfolio:hover {
-    color: blue;
-    font-size: 26px;
-    font-weight: 135px;
-}
-
-.list-kontakt {
-    color: black;
-    font-size: 16px;
-    font-weight: 45px;
-}
-
-.list-kontakt:hover {
-    color: blue;
-    font-size: 26px;
-    font-weight: 135px;
-}
-
-.mail {
-    color: #2196F3;
-    font-size: 16px;
-    font-weight: 135px;
-}
-
-.mail:hover {
-    color: black;
-    font-size: 26px;
-    font-weight: 205px;
-}
-
-.tel {
-    color: black;
-    font-size: 16px;
-    font-weight: 135px;
-}
-
-.tel:hover {
-    color: blue;
-    font-size: 26px;
-    font-weight: 135px;
-}
-/* header>>>main*/
-/*.flogo {
-    font-size: 31px;
+.title {
     font-weight: 700;
-    color: white;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
 }
 
-.flogo:hover {
-    font-size: 46px;
-    font-weight: 1000px;
-    color: black;
+.person-name {
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
 }
 
-.fwebstudio {
-    color: rgb(61, 161, 219);
+.person-profession {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
+}
+
+.logo-footer {
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+
+.logo-studio {
+    color: #fff;
+}
+
+.futer-fon {
+    width: 1600px;
+    height: 252px;
+    background: #2f303a;
+}
+
+.info {
+    background-color: #2f303a;
+    /*тимчасовий фон для перевірки*/
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.info-adres {
+    color: #fff;
+}
+
+/*portfolio*/
+.list-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
+.portfolio  h2{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 200%;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+.portfolio p {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
